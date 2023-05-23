@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>index</title>
+</head>
+<style>
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 15px; }
+    a {
+            margin: 15px;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 5px; }
+
+</style>
+
+<body>
+    <h2>Luiz Guilherme da Silva Paiva</h2>
+    <div>
+        <h3>Locadora do Paiva</h3>
+        <p class="lead">Encontre o filme que você deseja nos links abaixo</p>
+        <table class="table row">
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="{% url 'filmes' %}" class="btn btn-primary">Filmes</a>
+                    </td>
+                    <td>
+                        <a href="{% url 'locacao' %}" class="btn btn-primary">Locação</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
