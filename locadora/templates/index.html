@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>index</title>
 </head>
 <style>
@@ -24,21 +23,20 @@
     <h2>Luiz Guilherme da Silva Paiva</h2>
     <div>
         <h3>Locadora do Paiva</h3>
-        <p class="lead">Encontre o filme que você deseja nos links abaixo</p>
-        <table class="table row">
+        <p>Encontre o filme que você deseja nos links abaixo</p>
+        <table>
             <tbody>
                 <tr>
                     <td>
-                        <a href="{% url 'filmes' %}" class="btn btn-primary">Filmes</a>
+                        <a href="{% url 'filmes' %}">Filmes</a>
                     </td>
                     <td>
-                        <a href="{% url 'locacao' %}" class="btn btn-primary">Locação</a>
+                        <a href="{% url 'locacao' %}">Locação</a>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
